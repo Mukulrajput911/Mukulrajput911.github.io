@@ -27,7 +27,7 @@
     "name": "Raj Kumar",
     "phone": "+918218514554",
     "email": "rajhdr@gmail.com",
-    "image": "Images/Agent_pics/Agent1.jpeg"
+    "image": "public/Agent_pics/Agent1.jpeg"
   }
 },
   {
@@ -54,21 +54,21 @@
     "Close to Pilot Baba Ashram"
   ],
   "images": [
-    "/Images/Properties/Ashram/main.jpeg",
-    "/Images/Properties/Ashram/1.jpeg",
-    "/Images/Properties/Ashram/2.jpeg",
-    "/Images/Properties/Ashram/3.jpeg",
-    "/Images/Properties/Ashram/4.jpeg",
-    "/Images/Properties/Ashram/5.jpeg",
-    "/Images/Properties/Ashram/6.jpeg",
-    "/Images/Properties/Ashram/7.jpeg",
-    "/Images/Properties/Ashram/8.jpeg"
+    "/public/Properties/Ashram/main.jpeg",
+    "/public/Properties/Ashram/1.jpeg",
+    "/public/Properties/Ashram/2.jpeg",
+    "/public/Properties/Ashram/3.jpeg",
+    "/public/Properties/Ashram/4.jpeg",
+    "/public/Properties/Ashram/5.jpeg",
+    "/public/Properties/Ashram/6.jpeg",
+    "/public/Properties/Ashram/7.jpeg",
+    "/public/Properties/Ashram/8.jpeg"
   ],
   "agent": {
     "name": "Raj Kumar",
     "phone": "+918218514554",
     "email": "rajhdr@gmail.com",
-    "image": "Images/Agent_pics/Agent1.jpeg"
+    "image": "public/Agent_pics/Agent1.jpeg"
   }
 }
 ,
@@ -95,15 +95,15 @@
     "CBSE 12th Nearby School"
   ],
   "images": [
-    "/Images/Properties/Raiwala/main.jpeg",
-    "/Images/Properties/Raiwala/1.jpeg",
-    "/Images/Properties/Raiwala/2.jpeg"
+    "/public/Properties/Raiwala/main.jpeg",
+    "/public/Properties/Raiwala/1.jpeg",
+    "/public/Properties/Raiwala/2.jpeg"
   ],
   "agent": {
     "name": "Raj Kumar",
     "phone": "+918218514554",
     "email": "rajhdr@gmail.com",
-    "image": "Images/Agent_pics/Agent1.jpeg"
+    "image": "public/Agent_pics/Agent1.jpeg"
   }
 },
     {
@@ -129,26 +129,26 @@
     "Upcoming Railway Station Expansion"
   ],
   "images": [
-    "/Images/Properties/Railwayplot/main.jpeg",
-    "/Images/Properties/Railwayplot/1.jpeg",
-    "/Images/Properties/Railwayplot/2.jpeg",
-    "/Images/Properties/Railwayplot/3.jpeg",
-    "/Images/Properties/Railwayplot/4.jpeg",
-    "/Images/Properties/Railwayplot/5.jpeg",
-    "/Images/Properties/Railwayplot/6.jpeg",
-    "/Images/Properties/Railwayplot/7.jpeg",
-    "/Images/Properties/Railwayplot/8.jpeg",
-    "/Images/Properties/Railwayplot/9.jpeg",
-    "/Images/Properties/Railwayplot/10.jpeg",
-    "/Images/Properties/Railwayplot/11.jpeg",
-    "/Images/Properties/Railwayplot/12.jpeg",
-    "/Images/Properties/Railwayplot/13.jpeg"
+    "/public/Properties/Railwayplot/main.jpeg",
+    "/public/Properties/Railwayplot/1.jpeg",
+    "/public/Properties/Railwayplot/2.jpeg",
+    "/public/Properties/Railwayplot/3.jpeg",
+    "/public/Properties/Railwayplot/4.jpeg",
+    "/public/Properties/Railwayplot/5.jpeg",
+    "/public/Properties/Railwayplot/6.jpeg",
+    "/public/Properties/Railwayplot/7.jpeg",
+    "/public/Properties/Railwayplot/8.jpeg",
+    "/public/Properties/Railwayplot/9.jpeg",
+    "/public/Properties/Railwayplot/10.jpeg",
+    "/public/Properties/Railwayplot/11.jpeg",
+    "/public/Properties/Railwayplot/12.jpeg",
+    "/public/Properties/Railwayplot/13.jpeg"
   ],
   "agent": {
     "name": "Raj Kumar",
     "phone": "+918218514554",
     "email": "rajhdr@gmail.com",
-    "image": "Images/Agent_pics/Agent1.jpeg"
+    "image": "public/Agent_pics/Agent1.jpeg"
   }
 }
   ],
@@ -161,7 +161,7 @@
       "phone": "+918218514554",
       "email": "rajhdr@gmail.com",
       "bio": "With over 5 years of experience in real estate, Raj has established himself as one of the top agents in the industry. His deep knowledge of the market and dedication to client satisfaction have earned his numerous accolades.",
-      "image": "Images/Agent_pics/Agent1.jpeg",
+      "image": "public/Agent_pics/Agent1.jpeg",
       "specialties": ["Oceanfront Properties", "Luxury Estates", "International Buyers"]
     }
   ],

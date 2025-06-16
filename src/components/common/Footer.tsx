@@ -10,7 +10,7 @@ import {
   Twitter, 
   Linkedin 
 } from 'lucide-react';
-import LOGO from '../../../Images/LOGO Full.png'
+import LOGO from '../../../public/LOGO Full.png'
 
 const Footer: React.FC = () => {
   return (

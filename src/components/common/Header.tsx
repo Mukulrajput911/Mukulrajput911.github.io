@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { NavLink, Link } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Home, Menu, X } from 'lucide-react';
-import LOGO from '../../../Images/LOGO Full.png';
+import LOGO from '../../../public/LOGO Full.png';
 interface HeaderProps {
   scrolled: boolean;
 }
