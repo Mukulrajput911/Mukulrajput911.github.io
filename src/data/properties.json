@@ -1,0 +1,235 @@
+{
+  "properties": [
+    {
+  "id": 1,
+  "title": "Dinarpur Agriculture Land",
+  "description": "Prime agriculture land located in Dinarpur, directly on the Haridwar to Laksar highway via Juice Country. This 30 begha plot offers 0-distance access to the road, with 2.5 km of 6-lane and 5 km of 4-lane highway nearby. Ideal for development or farming investments.",
+  "price": "Negotiable",
+  "location": "Dinarpur, Uttarakhand",
+  "address": "Dinarpur, Haridwar to Laksar Highway, Uttarakhand, India",
+  "bedrooms": 0,
+  "bathrooms": 0,
+  "area": 1306800,
+  "yearBuilt": null,
+  "featured": true,
+  "status": "For Sale",
+  "type": "Agriculture Land",
+  "amenities": [
+    "Highway Facing",
+    "0 Distance from Road",
+    "6-Lane Road Access",
+    "4-Lane Road Access"
+  ],
+  "images": [
+
+  ],
+  "agent": {
+    "name": "Raj Kumar",
+    "phone": "+918218514554",
+    "email": "rajhdr@gmail.com",
+    "image": "Images/Agent_pics/Agent1.jpeg"
+  }
+},
+  {
+  "id": 2,
+  "title": "Ashram on Sanyas Road",
+  "description": "Ashram property located directly on Sanyas Road featuring 31 rooms and 1 spacious hall. Perfect for spiritual gatherings or guest accommodations. Walking distance to Ganga River, DPS School, and Daksh Temple. Just 0.5 km from the highway and near the main market and Pilot Baba Ashram.",
+  "price": 100000000,
+  "location": "Haridwar, Uttarakhand",
+  "address": "Sanyas Road, Haridwar, Uttarakhand, India",
+  "bedrooms": 31,
+  "bathrooms": 31,
+  "area": 15000,
+  "yearBuilt": 2015,
+  "featured": true,
+  "status": "For Sale",
+  "type": "Ashram",
+  "amenities": [
+    "31 Rooms + 1 Hall",
+    "Walking Distance to DPS School",
+    "Ganga River Nearby",
+    "0.5 km from Highway",
+    "Near Main Market",
+    "Daksh Temple Nearby",
+    "Close to Pilot Baba Ashram"
+  ],
+  "images": [
+    "/Images/Properties/Ashram/main.jpeg",
+    "/Images/Properties/Ashram/1.jpeg",
+    "/Images/Properties/Ashram/2.jpeg",
+    "/Images/Properties/Ashram/3.jpeg",
+    "/Images/Properties/Ashram/4.jpeg",
+    "/Images/Properties/Ashram/5.jpeg",
+    "/Images/Properties/Ashram/6.jpeg",
+    "/Images/Properties/Ashram/7.jpeg",
+    "/Images/Properties/Ashram/8.jpeg"
+  ],
+  "agent": {
+    "name": "Raj Kumar",
+    "phone": "+918218514554",
+    "email": "rajhdr@gmail.com",
+    "image": "Images/Agent_pics/Agent1.jpeg"
+  }
+}
+,
+    {
+  "id": 3,
+  "title": "Trust Property in Raiwala",
+  "description": "Massive trust-owned land in Raiwala spanning 150 begha, with 142 begha registered and 8 begha within the boundary. Situated just 3 km from both the highway and the railway station. The area is suitable for institutional, educational, or large-scale development projects. Nearby CBSE 12th-grade schools add educational value to the region.",
+  "price": 1200000000,
+  "location": "Raiwala, Uttarakhand",
+  "address": "Raiwala, near Railway Station & Highway, Uttarakhand, India",
+  "bedrooms": 0,
+  "bathrooms": 0,
+  "area": 6534000,
+  "yearBuilt": 2010,
+  "featured": true,
+  "status": "For Sale",
+  "type": "Trust Property",
+  "amenities": [
+    "Total Land: 150 Begha",
+    "Registered: 142 Begha",
+    "8 Begha Inside Boundary",
+    "3 km from Highway",
+    "3 km from Railway Station",
+    "CBSE 12th Nearby School"
+  ],
+  "images": [
+    "/Images/Properties/Raiwala/main.jpeg",
+    "/Images/Properties/Raiwala/1.jpeg",
+    "/Images/Properties/Raiwala/2.jpeg"
+  ],
+  "agent": {
+    "name": "Raj Kumar",
+    "phone": "+918218514554",
+    "email": "rajhdr@gmail.com",
+    "image": "Images/Agent_pics/Agent1.jpeg"
+  }
+},
+    {
+  "id": 4,
+  "title": "Residential Plot near Haridwar",
+  "description": "Residential plot measuring 17x30 ft located just 200 meters from the railway station and around 1 km from the highway. The market is within walking distance, and Haridwar is only 5 km away. The nearby railway station is set to undergo expansion, adding further value to the property.",
+  "price": 1530000,
+  "location": "Near Haridwar, Uttarakhand",
+  "address": "Near Railway Station, Haridwar, Uttarakhand, India",
+  "bedrooms": 0,
+  "bathrooms": 0,
+  "area": 510,
+  "yearBuilt": null,
+  "featured": true,
+  "status": "For Sale",
+  "type": "Residential Plot",
+  "amenities": [
+    "17x30 ft Plot",
+    "Walking Distance to Market",
+    "200m from Railway Station",
+    "1km from Highway",
+    "5km from Haridwar",
+    "Upcoming Railway Station Expansion"
+  ],
+  "images": [
+    "/Images/Properties/Railwayplot/main.jpeg",
+    "/Images/Properties/Railwayplot/1.jpeg",
+    "/Images/Properties/Railwayplot/2.jpeg",
+    "/Images/Properties/Railwayplot/3.jpeg",
+    "/Images/Properties/Railwayplot/4.jpeg",
+    "/Images/Properties/Railwayplot/5.jpeg",
+    "/Images/Properties/Railwayplot/6.jpeg",
+    "/Images/Properties/Railwayplot/7.jpeg",
+    "/Images/Properties/Railwayplot/8.jpeg",
+    "/Images/Properties/Railwayplot/9.jpeg",
+    "/Images/Properties/Railwayplot/10.jpeg",
+    "/Images/Properties/Railwayplot/11.jpeg",
+    "/Images/Properties/Railwayplot/12.jpeg",
+    "/Images/Properties/Railwayplot/13.jpeg"
+  ],
+  "agent": {
+    "name": "Raj Kumar",
+    "phone": "+918218514554",
+    "email": "rajhdr@gmail.com",
+    "image": "Images/Agent_pics/Agent1.jpeg"
+  }
+}
+  ],
+  
+  "agents": [ 
+    { 
+      "id": 1,
+      "name": "Raj Kumar",
+      "title": "Real Estate Agent",
+      "phone": "+918218514554",
+      "email": "rajhdr@gmail.com",
+      "bio": "With over 5 years of experience in real estate, Raj has established himself as one of the top agents in the industry. His deep knowledge of the market and dedication to client satisfaction have earned his numerous accolades.",
+      "image": "Images/Agent_pics/Agent1.jpeg",
+      "specialties": ["Oceanfront Properties", "Luxury Estates", "International Buyers"]
+    }
+  ],
+  "testimonials": [
+    {
+      "id": 1,
+      "name": "James & Katherine Anderson",
+      "text": "Working with Luxury Estates to find our dream home was an exceptional experience. The team's attention to detail and understanding of our needs made the process smooth and enjoyable.",
+      "location": "Purchased in Malibu, CA",
+      "rating": 5
+    },
+    {
+      "id": 2,
+      "name": "Elizabeth Chen",
+      "text": "When selling my penthouse, I needed an agency that understood the unique value of my property. Luxury Estates exceeded my expectations with their marketing strategy and negotiation skills.",
+      "location": "Sold in New York, NY",
+      "rating": 5
+    },
+    {
+      "id": 3,
+      "name": "David & Sophia Martinez",
+      "text": "As international buyers, we faced unique challenges in finding our perfect vacation home. The team at Luxury Estates guided us through every step with professionalism and expertise.",
+      "location": "Purchased in Miami, FL",
+      "rating": 5
+    }
+  ],
+    "services":  [
+  {
+    "id": 1,
+    "title": "Relocation Services",
+    "description": "Helping you move with ease.",
+    "icon": "MapPin",
+    "photoUrl": "https://images.pexels.com/photos/13343392/pexels-photo-13343392.jpeg"
+  },
+  {
+    "id": 2,
+    "title": "Investment Advisory",
+    "description": "Expert guidance for smart investments.",
+    "icon": "TrendingUp",
+    "photoUrl": "https://images.pexels.com/photos/7587480/pexels-photo-7587480.jpeg"
+  },
+  {
+    "id": 3,
+    "title": "Premium Property Acquisition",
+    "description": "Exclusive deals on premium properties.",
+    "icon": "Search",
+    "photoUrl": "https://images.pexels.com/photos/8134823/pexels-photo-8134823.jpeg"
+  },
+  {
+    "id": 4,
+    "title": "Luxury Properties",
+    "description": "Discover elite real estate offerings.",
+    "icon": "Home",
+    "photoUrl": "https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg"
+  },
+  {
+    "id": 5,
+    "title": "Property Management",
+    "description": "Effortless property upkeep and care.",
+    "icon": "Building",
+    "photoUrl": "https://images.pexels.com/photos/1396522/pexels-photo-1396522.jpeg"
+  },
+  {
+    "id": 6,
+    "title": "Architectural Services",
+    "description": "Design excellence for visionary spaces.",
+    "icon": "Ruler",
+    "photoUrl": "https://images.pexels.com/photos/1396622/pexels-photo-1396622.jpeg"
+  }
+]
+}
