@@ -23,13 +23,13 @@ const Header: React.FC<HeaderProps> = ({ scrolled }) => {
 
   const headerClass = scrolled
   ? 'bg-white shadow-md py-4 text-secondary-900 backdrop-blur-sm'
-  : 'bg-transparent py-6 text-black';
+  : 'bg-white py-4 text-black';
 
   const navLinkClass = ({ isActive }: { isActive: boolean }) =>
     `transition-all duration-300 relative px-4 py-2 ${
       isActive 
-        ? scrolled ? 'text-primary-600 font-medium' : 'text-white font-medium' 
-        : scrolled ? 'text-secondary-800 hover:text-primary-600' : 'text-white hover:text-accent-300'
+        ? scrolled ? 'text-primary-600 font-medium' : 'text-black font-medium' 
+        : scrolled ? 'text-secondary-800 hover:text-primary-600' : 'text-black hover:text-accent-300'
     }`;
 
   const menuVariants = {

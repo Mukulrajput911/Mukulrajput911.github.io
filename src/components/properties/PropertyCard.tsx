@@ -11,12 +11,14 @@ interface PropertyCardProps {
 }
 
 const PropertyCard: React.FC<PropertyCardProps> = ({ property }) => {
-  const formatPrice = (price: number) => {
-    if (price >= 1000000) {
-      return `$${(price / 1000000).toFixed(1)}M`;
-    }
-    return `$${(price / 1000).toFixed(0)}K`;
-  };
+const formatPrice = (price: number) => {
+  if (price >= 10000000) {
+    return `₹${(price / 10000000).toFixed(1)} Cr`;
+  } else if (price >= 100000) {
+    return `₹${(price / 100000).toFixed(1)} Lakh`;
+  }
+  return `₹ ${price.toLocaleString()}`;
+};
 
   const cardVariants = {
     hidden: { opacity: 0, y: 20 },

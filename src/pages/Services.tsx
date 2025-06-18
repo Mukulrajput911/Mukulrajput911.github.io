@@ -246,19 +246,16 @@ const Services: React.FC = () => {
               {[
                 {
                   question: "What areas do you serve?",
-                  answer: "We primarily operate in major luxury markets including New York, Los Angeles, Miami, Aspen, and the Hamptons, with partner agencies extending our reach to international destinations."
+                  answer: "We primarily operate in Real Estate market including Haridwar, Dehradun, Laldhang and other areas of Uttarakhand."
                 },
                 {
-                  question: "How do you determine the value of a luxury property?",
+                  question: "How do you determine the value of a property?",
                   answer: "Our valuation process involves a comprehensive analysis of comparable sales, unique property features, location attributes, market trends, and potential for value appreciation. We combine traditional methods with innovative approaches to ensure accurate pricing."
                 },
-                {
-                  question: "Do you work with international clients?",
-                  answer: "Yes, we have extensive experience working with international buyers and sellers. Our team can navigate the complexities of cross-border transactions, currency considerations, and legal requirements."
-                },
+
                 {
                   question: "What makes your marketing approach different?",
-                  answer: "Our marketing strategy for luxury properties combines traditional high-end exposure with cutting-edge digital techniques. We create custom marketing plans for each property, utilizing professional photography, virtual tours, targeted advertising, and exclusive networks."
+                  answer: "Our marketing strategy for Real Estate properties combines traditional high-end exposure with cutting-edge digital techniques. We create custom marketing plans for each property, utilizing professional photography, virtual tours, targeted advertising, and exclusive networks."
                 },
                 {
                   question: "How long does the buying or selling process typically take?",

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
-import { Search, MapPin, Home, DollarSign, Tag } from 'lucide-react';
+import { Search, MapPin, Home, IndianRupee, Tag } from 'lucide-react';
 import PropertyCard from '../components/properties/PropertyCard';
 
 // Types
@@ -173,7 +173,7 @@ const Properties: React.FC = () => {
               
               <div>
                 <label className="flex items-center text-sm font-medium text-secondary-700 mb-2">
-                  <DollarSign size={16} className="mr-2" />
+                  <IndianRupee size={16} className="mr-2" />
                   Price Range
                 </label>
                 <select 

@@ -5,7 +5,7 @@
   "title": "Dinarpur Agriculture Land",
   "description": "Prime agriculture land located in Dinarpur, directly on the Haridwar to Laksar highway via Juice Country. This 30 begha plot offers 0-distance access to the road, with 2.5 km of 6-lane and 5 km of 4-lane highway nearby. Ideal for development or farming investments.",
   "price": "Negotiable",
-  "location": "Dinarpur, Uttarakhand",
+  "location": "https://maps.app.goo.gl/nYMzSQBZZCsgEtdV8",
   "address": "Dinarpur, Haridwar to Laksar Highway, Uttarakhand, India",
   "bedrooms": 0,
   "bathrooms": 0,
@@ -35,7 +35,7 @@
   "title": "Ashram on Sanyas Road",
   "description": "Ashram property located directly on Sanyas Road featuring 31 rooms and 1 spacious hall. Perfect for spiritual gatherings or guest accommodations. Walking distance to Ganga River, DPS School, and Daksh Temple. Just 0.5 km from the highway and near the main market and Pilot Baba Ashram.",
   "price": 100000000,
-  "location": "Haridwar, Uttarakhand",
+  "location": "https://maps.app.goo.gl/FgYaKkvThWjubvah8",
   "address": "Sanyas Road, Haridwar, Uttarakhand, India",
   "bedrooms": 31,
   "bathrooms": 31,
@@ -77,7 +77,7 @@
   "title": "Trust Property in Raiwala",
   "description": "Massive trust-owned land in Raiwala spanning 150 begha, with 142 begha registered and 8 begha within the boundary. Situated just 3 km from both the highway and the railway station. The area is suitable for institutional, educational, or large-scale development projects. Nearby CBSE 12th-grade schools add educational value to the region.",
   "price": 1200000000,
-  "location": "Raiwala, Uttarakhand",
+  "location": "https://maps.app.goo.gl/GW8kLCvipHVFzgA76",
   "address": "Raiwala, near Railway Station & Highway, Uttarakhand, India",
   "bedrooms": 0,
   "bathrooms": 0,
@@ -111,7 +111,7 @@
   "title": "Residential Plot near Haridwar",
   "description": "Residential plot measuring 17x30 ft located just 200 meters from the railway station and around 1 km from the highway. The market is within walking distance, and Haridwar is only 5 km away. The nearby railway station is set to undergo expansion, adding further value to the property.",
   "price": 1530000,
-  "location": "Near Haridwar, Uttarakhand",
+  "location": "https://maps.app.goo.gl/wmonYzFepBeAFihX7",
   "address": "Near Railway Station, Haridwar, Uttarakhand, India",
   "bedrooms": 0,
   "bathrooms": 0,
@@ -162,7 +162,7 @@
       "email": "rajhdr@gmail.com",
       "bio": "With over 5 years of experience in real estate, Raj has established himself as one of the top agents in the industry. His deep knowledge of the market and dedication to client satisfaction have earned his numerous accolades.",
       "image": "public/Agent_pics/Agent1.jpeg",
-      "specialties": ["Oceanfront Properties", "Luxury Estates", "International Buyers"]
+      "specialties": ["Oceanfront Properties", "Luxury Estates", "International Buyers", "Investment" ,"Real Estate"]
     }
   ],
   "testimonials": [

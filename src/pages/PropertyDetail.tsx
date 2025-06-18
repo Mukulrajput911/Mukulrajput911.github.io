@@ -67,14 +67,9 @@ const PropertyDetail: React.FC = () => {
     return () => clearTimeout(timer);
   }, [id]);
 
-  const formatPrice = (price: number) => {
-    return new Intl.NumberFormat('en-US', {
-      style: 'currency',
-      currency: 'USD',
-      minimumFractionDigits: 0,
-      maximumFractionDigits: 0
-    }).format(price);
-  };
+const formatPrice = (price: number) => {
+  return `₹${price.toLocaleString('en-IN')}`;
+};
 
   if (loading) {
     return (
@@ -319,136 +314,38 @@ const PropertyDetail: React.FC = () => {
                 </div>
               </motion.div>
 
-              <motion.div 
-                className="bg-white p-8 rounded-lg shadow-md"
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.6 }}
-              >
-                <h3 className="text-xl font-display font-bold mb-6 text-secondary-900">Location</h3>
-                {/* Map placeholder - would be replaced with actual map component */}
-                <div className="bg-secondary-100 rounded-lg h-64 flex items-center justify-center mb-4">
-                  <div className="text-center">
-                    <MapPin size={48} className="text-secondary-400 mx-auto mb-2" />
-                    <span className="text-secondary-600">Interactive map would be displayed here</span>
-                  </div>
-                </div>
-                <p className="text-secondary-700">
-                  {property.address}, {property.location}
-                </p>
-              </motion.div>
+<motion.div 
+  className="bg-white p-8 rounded-lg shadow-md"
+  initial={{ opacity: 0, y: 20 }}
+  whileInView={{ opacity: 1, y: 0 }}
+  viewport={{ once: true }}
+  transition={{ duration: 0.6 }}
+>
+  <h3 className="text-xl font-display font-bold mb-6 text-secondary-900">Location</h3>
+
+  {/* Map placeholder with clickable link */}
+  <a 
+    href={property.location} 
+    target="_blank" 
+    rel="noopener noreferrer"
+    className="block bg-secondary-100 rounded-lg h-64 flex items-center justify-center mb-4 hover:shadow-lg transition"
+  >
+    <div className="text-center">
+      <MapPin size={48} className="text-secondary-400 mx-auto mb-2" />
+      <span className="text-secondary-600">Click to view on map</span>
+    </div>
+  </a>
+
+  <p className="text-secondary-700">
+    {property.address}
+  </p>
+</motion.div>
             </div>
 
             <div className="lg:col-span-1">
-              <motion.div 
-                className="bg-white p-8 rounded-lg shadow-md mb-8"
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.6, delay: 0.2 }}
-              >
-                {/* <h3 className="text-xl font-display font-bold mb-4 text-secondary-900">
-                  Schedule a Viewing
-                </h3> */}
-                {/* <p className="text-secondary-700 mb-6">
-                  Choose your preferred date and time to visit this property in person.
-                </p> */}
-                {/* <form>
-                  <div className="mb-4">
-                    <label className="block text-sm font-medium text-secondary-700 mb-1">
-                      Preferred Date
-                    </label>
-                    <input 
-                      type="date" 
-                      className="w-full px-4 py-2 rounded-md border border-secondary-300 focus:outline-none focus:ring-2 focus:ring-primary-500"
-                    />
-                  </div>
-                  <div className="mb-4">
-                    <label className="block text-sm font-medium text-secondary-700 mb-1">
-                      Preferred Time
-                    </label>
-                    <select className="w-full px-4 py-2 rounded-md border border-secondary-300 focus:outline-none focus:ring-2 focus:ring-primary-500">
-                      <option value="">Select a time</option>
-                      <option value="09:00">9:00 AM</option>
-                      <option value="10:00">10:00 AM</option>
-                      <option value="11:00">11:00 AM</option>
-                      <option value="12:00">12:00 PM</option>
-                      <option value="13:00">1:00 PM</option>
-                      <option value="14:00">2:00 PM</option>
-                      <option value="15:00">3:00 PM</option>
-                      <option value="16:00">4:00 PM</option>
-                      <option value="17:00">5:00 PM</option>
-                    </select>
-                  </div>
-                  <button type="submit" className="btn-primary w-full">
-                    Schedule Viewing
-                  </button>
-                </form> */}
-              </motion.div>
 
-              <motion.div 
-                className="bg-white p-8 rounded-lg shadow-md"
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.6, delay: 0.3 }}
-              >
-                {/* <h3 className="text-xl font-display font-bold mb-4 text-secondary-900">
-                  Mortgage Calculator
-                </h3> */}
-                {/* <p className="text-secondary-700 mb-6">
-                  Estimate your monthly payments for this property.
-                </p>
-                <form>
-                  <div className="mb-4">
-                    <label className="block text-sm font-medium text-secondary-700 mb-1">
-                      Purchase Price
-                    </label>
-                    <input 
-                      type="text" 
-                      className="w-full px-4 py-2 rounded-md border border-secondary-300 focus:outline-none focus:ring-2 focus:ring-primary-500"
-                      defaultValue={formatPrice(property.price)}
-                      readOnly
-                    />
-                  </div>
-                  <div className="mb-4">
-                    <label className="block text-sm font-medium text-secondary-700 mb-1">
-                      Down Payment (%)
-                    </label>
-                    <input 
-                      type="number" 
-                      className="w-full px-4 py-2 rounded-md border border-secondary-300 focus:outline-none focus:ring-2 focus:ring-primary-500"
-                      defaultValue="20"
-                    />
-                  </div>
-                  <div className="mb-4">
-                    <label className="block text-sm font-medium text-secondary-700 mb-1">
-                      Interest Rate (%)
-                    </label>
-                    <input 
-                      type="number" 
-                      className="w-full px-4 py-2 rounded-md border border-secondary-300 focus:outline-none focus:ring-2 focus:ring-primary-500"
-                      defaultValue="3.5"
-                      step="0.1"
-                    />
-                  </div>
-                  <div className="mb-4">
-                    <label className="block text-sm font-medium text-secondary-700 mb-1">
-                      Loan Term (years)
-                    </label>
-                    <select className="w-full px-4 py-2 rounded-md border border-secondary-300 focus:outline-none focus:ring-2 focus:ring-primary-500">
-                      <option value="30">30 years</option>
-                      <option value="20">20 years</option>
-                      <option value="15">15 years</option>
-                      <option value="10">10 years</option>
-                    </select>
-                  </div>
-                  <button type="button" className="btn-primary w-full">
-                    Calculate
-                  </button>
-                </form> */}
-              </motion.div>
+
+             
             </div>
           </div>
         </div>
