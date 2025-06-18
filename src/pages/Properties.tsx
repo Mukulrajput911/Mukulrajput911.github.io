@@ -182,10 +182,10 @@ const Properties: React.FC = () => {
                   onChange={(e) => setPriceRange(e.target.value)}
                 >
                   <option value="">Any Price</option>
-                  <option value="1000000-3000000">1000000 - 3000000</option>
-                  <option value="3000000-5000000">3000000 - 5000000</option>
-                  <option value="5000000-10000000">5000000 - 10000000</option>
-                  <option value="10000000">$10M+</option>
+                  <option value="1000000-3000000">₹1000000 - ₹3000000</option>
+                  <option value="3000000-5000000">₹3000000 - ₹5000000</option>
+                  <option value="5000000-10000000">₹5000000 - ₹10000000</option>
+                  <option value="10000000">₹10000000</option>
                 </select>
               </div>
               
