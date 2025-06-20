@@ -70,7 +70,7 @@ const Properties: React.FC = () => {
     setFilteredProperties(result);
   }, [properties, location, propertyType, priceRange, status, searchQuery]);
 
-  const uniqueLocations = [...new Set(properties.map(property => property.location))];
+  const uniqueLocations = [...new Set(properties.map(property => property.address))];
   const uniqueTypes = [...new Set(properties.map(property => property.type))];
   const uniqueStatuses = [...new Set(properties.map(property => property.status))];
 
